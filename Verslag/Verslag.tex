@@ -1,0 +1,85 @@
+\documentclass[]{article}
+
+%opening
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+
+%	%Programmeertaal opmaak1
+%	\definecolor{dkgreen}{rgb}{0,0.6,0}
+%	\definecolor{gray}{rgb}{0.5,0.5,0.5}
+%	\definecolor{mauve}{rgb}{0.58,0,0.82}
+%	\lstset{language=Java,
+%	basicstyle=\footnotesize,     
+%	numbers=left,               
+%	numberstyle=\tiny\color{gray},
+%	stepnumber=1,                                       
+%	numbersep=5pt,                 
+%	backgroundcolor=\color{white},  
+%	showspaces=false,             
+%	showstringspaces=false,         
+%	showtabs=false,                 
+%	frame=single,                   
+%	rulecolor=\color{black},       
+%	tabsize=4,                   
+%	captionpos=b,        
+%	breaklines=true,             
+%	breakatwhitespace=false,       
+%	title=\lstname,                                                  
+%	keywordstyle=\color{blue},          
+%	commentstyle=\color{dkgreen},    
+%	stringstyle=\color{mauve},       
+%	escapeinside={\%*}{*)},        
+%	morekeywords={*,...} 
+%	}
+
+%	%Programmeertaal opmaak2
+%	\definecolor{javared}{rgb}{0.6,0,0} % for strings
+%	\definecolor{javagreen}{rgb}{0.25,0.5,0.35} % comments
+%	\definecolor{javapurple}{rgb}{0.5,0,0.35} % keywords
+%	\definecolor{javadocblue}{rgb}{0.25,0.35,0.75} % javadoc
+%
+%	\lstset{language=Java,
+%	basicstyle=\ttfamily,
+%	keywordstyle=\color{javapurple}\bfseries,
+%	stringstyle=\color{javared},
+%	commentstyle=\color{javagreen},
+%	morecomment=[s][\color{javadocblue}]{/**}{*/},
+%	numbers=left,
+%	numberstyle=\tiny\color{black},
+%	stepnumber=2,
+%	numbersep=10pt,
+%	tabsize=4,
+%	showspaces=false,
+%	showstringspaces=false}
+
+%puntjes bij inhoudstafel
+\usepackage{tocloft}
+%\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+%\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for sections, if you really want! (It is default in report and book class (So you may not need it).
+
+\title{Opdracht Machineleertechnieken: analyse twee verschillende datasets}
+\author{Wout Deleu}
+\date{\today}
+\setcounter{section}{-1}
+
+\begin{document}
+\setlength{\parindent}{0pt} \maketitle \tableofcontents \newpage %geen indent bij nieuwe paragraaf
+
+\section{Intro}
+Gedurende deze opdracht m.b.t.\ machinelearning heeft als doel experimenteren
+met en implementeren van verschillende modellen. In dit verslag zullen 2 tasks,
+en meerdere algoritmen per learning task\footnote{task = \textit{'Het probleem
+        dat men wil oplossen via machinelearning (bv.\ classificatie, regressie,
+        clustering, \ldots)'}} aan bod komen.
+
+\section{Conclusion}
+
+\newpage
+\bibliographystyle{chem-acs}
+\bibliography{bibfile.bib}
+\end{document}
